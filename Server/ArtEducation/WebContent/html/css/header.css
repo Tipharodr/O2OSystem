@@ -1,0 +1,71 @@
+header {
+  height: 200px;
+  background-color: #4d99f5;
+}
+header img {
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 100px;
+  width: 100px;
+}
+.slogan {
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: bottom;
+  font-size: 28px;
+  color: #fff;
+}
+
+.login {
+  margin-bottom: 80px;
+  padding: 15px;
+  text-align: end;
+}
+.login a {
+  color:white;
+  margin-right: 10px;
+}
+
+.buttons {
+  padding: 15px;
+  text-align: end;
+}
+
+.buttons button {
+  width: 98px;
+  font-size: 18px;
+  margin-right: 13px;
+  color: #333;
+  border-radius: 10px; 
+}
+.buttons button:nth-child(1) {
+  background-color: #FE9B98;
+}
+.buttons button:nth-child(1):hover,
+.buttons button:nth-child(1):active{
+  background-color: #FA474A;
+}
+
+.buttons button:nth-child(2) {
+  background-color: #FFD55E;
+}
+.buttons button:nth-child(2):active,
+.buttons button:nth-child(2):hover {
+  background-color: #FDBB1D;
+}
+
+.buttons button:nth-child(3) {
+  background-color: #A6D692;
+}
+.buttons button:nth-child(3):active,
+.buttons button:nth-child(3):hover {
+  background-color: #5DD130;
+}
+
+.buttons button:nth-child(4){
+  background-color: #F4AD6A;
+}
+.buttons button:nth-child(4):active,
+.buttons button:nth-child(4):hover {
+  background-color: #EE731B;
+}
