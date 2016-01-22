@@ -16,7 +16,6 @@ import cn.itcast.ssm.service.TeacherService;
 public class SystemFunctionController {
 
 //	注入StudentService接口的实例化对象
-
 	@Autowired
 	private StudentService studentService;
 
@@ -40,7 +39,7 @@ public class SystemFunctionController {
 		Student student=null;
 		Teacher teacher=null;
 		Organization organization=null;
-		System.out.println("-----");
+		
 //		先判断是不是学生类型
 		if(userType.equals("student")){
 			
