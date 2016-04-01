@@ -1,0 +1,61 @@
+.main {
+  height: 500px;
+  position: relative;
+  background-image: url('../img/main.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.qrcode {
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+.qrcode img {
+  margin: 10px 5px 10px 10px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  background-color: gray;
+}
+.activity {
+  /*height: 500px;*/
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.activity-list {
+  margin-top: 30px;
+}
+.ph {
+  height: 500px;
+}
+.signin {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  height: auto;
+  width: 300px;
+  z-index: 999;
+  background-color: #ddd;
+  border-radius: 4px;
+  box-shadow: 1px 2px 10px black;
+}
+.signin form {
+  margin-top: 50px;
+}
+.formtable {
+  margin: 0 auto;
+  text-align: right;
+  color: black;
+}
+.formtable td {
+  padding-bottom: 10px;
+}
+.submit {
+  margin: 20px auto;
+  text-align: center;
+}
